@@ -7,17 +7,17 @@ Ademas permite exportar los resultados en un formato **JSON**  con marcas de tie
 Este proyecto sigue un diseño limpio y desacoplado, separando la logica de red, el motor de escaneo y las utilidades de persistencia:
 ```text
 NETWORK-SCANNER/
-├── IPnetwork/           Módulo de descubrimiento de hosts actua con => (ICMP)
+├── IPnetwork/           
 │   ├── __init__.py
 │   └── network.py
-├── scanerPort/          Motor de escaneo de puertos TCP con Multi-Threading
+├── scanerPort/          
 │   ├── __init__.py
 │   └── scanner.py
-├── utils/               Funciones de soporte (Traducción y exportación)
+├── utils/               
 │   ├── __init__.py
 │   └── export_data.py
-├── reports/             Carpeta de destino para los reportes JSON
-├── main.py              Orquestador del menú interactivo (CLI)
+├── reports/             
+├── main.py               
 └── README.md
 ```
 # Caracteristicas Principales
